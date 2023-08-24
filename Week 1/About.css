@@ -1,0 +1,41 @@
+a:visited {
+    color:darkred;
+}
+a:hover {
+    color:beige;
+}
+img {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+img:hover {
+    border-radius: 0;
+}
+body {
+    font-family: "Sora";
+    background-color:slategrey;
+}
+    header {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin: auto;
+        color:darkred
+    }
+h1 {
+font-size: larger;
+color:beige;
+}
+.center {
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    color:beige
+}
+footer {
+    font-family: 'Dancing Script';
+    text-align: center;
+    margin:auto;
+    color:darkred
+}
