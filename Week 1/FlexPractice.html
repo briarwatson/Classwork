@@ -4,18 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    header, footer {
+      background-color: coral;
+      text-align: center;
+      font-weight: bold;
+    }
+    .yellowgreenContainer {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .Box {
+      border: 10px solid white;
+      background-color: yellowgreen;
+      width: 30%;
+      height: 300px;
+    }
+    .purpleContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .purpleBox {
+      border: 1px solid yellowgreen;
+      background-color: rgb(122, 83, 151);
+      text-align: center;
+      color: white;
+      width: 50%;
+      height: 100px;
+    }
+  </style>
 </head>
 <body>
   <header>
     Box It Up!
   </header>
   <div class="yellowgreenContainer">
-    <div class="yellowgreenContainer" style="order: 1">1</div>
-    <div class="yellowgreenContainer" style="order: 2">2</div>
-    <div class="yellowgreenContainer" style="order: 3">3</div>
-    <div class="yellowgreenContainer" style="order: 4">4</div>
-    <div class="yellowgreenContainer" style="order: 5">5</div>
-    <div class="yellowgreenContainer" style="order: 6">6</div>
+    <div class="Box">1</div>
+    <div class="Box">2</div>
+    <div class="Box">3</div>
+    <div class="Box">4</div>
+    <div class="Box">5</div>
+    <div class="Box">6</div>
   </div>
+  <div class="purpleContainer">
+    <div class="purpleBox">1</div>
+    <div class="purpleBox">2</div>
+    <div class="purpleBox">3</div>
+  </div>
+  <footer>
+    Box It Up!
+  </footer>
 </body>
+
 </html>
