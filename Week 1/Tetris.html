@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-.container{
+.container {
     display: flex;
     flex: row wrap;
 }
@@ -13,18 +13,37 @@
     height: 50px;
     width: 10%;
     box-shadow: 0px 0px 10px grey inset;
+    flex-direction: row row-reverse;
 }
 .cyan {
     background-color: cyan;
 }
-    </style>
+</style>
+<style> 
+.greencontainer {
+    display: flex;
+    flex: row wrap;
+}
+.box green {
+    height: 50px;
+    width: 10%;
+    box-shadow: 0px 0px 10px grey inset;
+    flex-direction: row-reverse;
+}
+.green {
+    background-color: rgb(80, 248, 80);
+}
+</style>
 </head>
 <body>
     <div class="blueContainer">
-        <div class="box cyan">1</div>
-        <div class="box cyan">2</div>
-        <div class="box cyan">3</div>
-        <div class="box cyan">4</div>
+        <div class="box cyan"></div>
+        <div class="box cyan"></div>
+        <div class="box cyan"></div>
+        <div class="box cyan"></div>
+    </div>
+    <div class="greenContainer">
+        <div class="box green"></div>
     </div>
 </body>
 </html>
