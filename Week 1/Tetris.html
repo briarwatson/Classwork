@@ -12,7 +12,7 @@
 .box {
     height: 50px;
     width: 50px;
-    box-shadow: 0px 0px 10px grey inset;
+    box-shadow: 0px 0px 10px rgb(102, 102, 102) inset;
     flex-direction: row-reverse;
 }
 .cyan {
@@ -24,8 +24,8 @@
 .yellow {
     background-color: yellow;
 }
-.lavender {
-    background-color: lavender; 
+.purple {
+    background-color: rgb(179, 118, 222); 
 }
 .black {
     background-color: black;
@@ -39,7 +39,37 @@
 .boxdarkblue {
     height: 50px;
     width: 50px;
-    box-shadow: 0px 0px 10px grey inset;
+    box-shadow: 0px 0px 10px rgb(102, 102, 102) inset;
+    flex-direction: row;
+}
+.orange {
+    background-color: orange;
+}
+.black {
+    background-color: black;
+}
+.green {
+    background-color: rgb(68, 235, 68);
+}
+.red {
+    background-color: red;
+}
+.purple {
+    background-color: rgb(179, 118, 222);
+}
+.black {
+    background-color: black;
+}    
+</style>
+<style>
+.darkblueContainer {
+    display: flex;
+    flex: row wrap;
+}
+.darkblue {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 10px rgb(102, 102, 102) inset;
     flex-direction: row;
 }
 .darkblue {
@@ -56,18 +86,35 @@
         <div class="box green"></div>
         <div class="box yellow"></div>
         <div class="box yellow"></div>
-        <div class="box lavender"></div>
-        <div class="box lavender"></div>
+        <div class="box purple"></div>
+        <div class="box purple"></div>
         <div class="box black"></div>
     
     </div>
     <div class="darkblueContainer">
         <div class="box darkblue"></div>
         <div class="box darkblue"></div>
+        <div class="box orange"></div>
+        <div class="box black"></div>
+        <div class="box green"></div>
+        <div class="box green"></div>
+        <div class="box red"></div>
+        <div class="box red"></div>
+        <div class="box purple"></div>
+        <div class="box black"></div>
+
     </div>
     <div class="darkblueContainer">
         <div class="box darkblue"></div>
         <div class="box darkblue"></div>
+        <div class="box orange"></div>
+        <div class="box orange"></div>
+        <div class="box orange"></div>
+        <div class="box green"></div>
+        <div class="box black"></div>
+        <div class="box red"></div>
+        <div class="box red"></div>
+        <div class="box orange"></div>
     </div>
 </body>
 </html>
