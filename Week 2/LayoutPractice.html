@@ -9,8 +9,9 @@
 <style>
 header {
     background-color: grey;
-    color: aliceblue;
+    color: aliceblue; 
     text-align: center;
+    font-display: bold;
 }
 img {
     border-radius: 10px;
@@ -19,18 +20,24 @@ img {
 }
 img:hover {
     border-radius: 0;
-
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    color: rgb(53, 241, 53);
 }
 </style>
 <style>
-td {
-    border: 1px solid rgb(157, 115, 196);
-    padding: 5px
-}
-table {
-    text-align: center;
-    margin: auto;
-}
+   .box {
+    display: flex;
+    flex: row wrap;
+   }
 </style>
 </head>
 <body>
@@ -38,13 +45,20 @@ table {
         HUNGRY BEAR FISHERIES
     <img src="https://s1.1zoom.me/big0/146/Bears_Fish_Food_Water_Spray_Hunting_550669_1280x832.jpg">
     </header>
-    <table>
-        <thread>
-            <tr>Our Fish</tr>
-            <tr>Consercation</tr>
-            <tr>About Us</tr>
-            <tr>Contact Us</tr>
-        </thread>
-    </table>
+    <nav>
+        <a href="https://google.com">Our Fish</a>
+        <a href="https://google.com">Conservation</a>
+        <a href="https://google.com">About Us</a>
+        <a href="https://google.com">Contact Us</a>
+    </nav>
+    <div class="box">
+        <div class="currentlyAvaliable"></div>
+        <div class="atlanticSalmon"></div>
+        <div class="cohoSalmon"></div>
+        <div class="chinookSalmon"></div>
+        <div class="sockeyeSalmon"></div>
+        <div class="pinkSalmon"></div>
+        <div class="rainbowTrout"></div>
+    </div>    
 </body>
 </html>
