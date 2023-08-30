@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="about.css" />
 <style>
 header {
-    background-color: grey;
+    background-color: rgb(110, 68, 169);
     color: aliceblue; 
     text-align: center;
 }
@@ -39,6 +39,37 @@ a:hover {
     text-align: center;
     margin: auto;
 }
+.mainContainer {
+    display: flex;
+}
+.subContainter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+.flexItem {
+    display: flex;
+}
+</style>
+<style> 
+footer {
+    background-image: url("https://img.freepik.com/free-vector/one-goldfish-white-background_1308-73185.jpg?w=2000");
+    background-repeat: repeat;
+    background-size: contain;
+    clear: none;
+    color:rgb(110, 68, 169);
+    text-align: left;
+    font-size: bold; 
+    width: 100%;
+    height: 100px;
+    margin-right: 250px;
+}
+img {
+    border-radius: 100px;
+    width: 100px;
+    height: 80px;
+}
 </style>
 
 </head>
@@ -54,7 +85,7 @@ a:hover {
         <a href="https://google.com">Contact Us</a>
     </nav>
     <h1>Currently Avaliable</h1>
-    <div class="leftList">
+    <div class="mainContainer">
         <ul class="leftList">
             <li>Atlantic Salmon</li>
             <li>Coho Salmon</li>
@@ -63,14 +94,24 @@ a:hover {
             <li>Pink Salmon</li>
             <li>Rainbow Trout</li>
         </ul>
-    </div>   
-    <div class="conservation">
-        <div class="Box">blah </div>
-        <div class="Box">blah </div>
-        <div class="Box"> blah </div>
-    </div>    
+        <div class="subContainter">
+        <div class="flexItem">
+            <img src="https://img.freepik.com/free-vector/one-goldfish-white-background_1308-73185.jpg?w=2000"> 
+            <p> blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+            </p>
+        </div>
+        <div class="flexItem">
+            <img src="https://img.freepik.com/free-vector/one-goldfish-white-background_1308-73185.jpg?w=2000"> 
+            <p> blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+            </p>
+        </div>
+        <div class="flexItem">
+            <img src="https://img.freepik.com/free-vector/one-goldfish-white-background_1308-73185.jpg?w=2000"> 
+            <p> blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+            </p>
+        </div>
 <footer>
-   
-</footer>    
+Only the Freshest Fish Around 
+</footer> 
 </body>
 </html>
