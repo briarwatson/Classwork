@@ -63,10 +63,11 @@ ul {
 .submitContainer {
     display: flex;
     text-align: center;
+    justify-content: right;
+    
 }
-.scal:hover {
-    transform: translate(20px, 20px);
-    color:black;
+.submit {
+    display: flex;
     background-color: aquamarine;
 }
 
@@ -85,14 +86,14 @@ ul {
         <input class="name"placeholder="Name"></input>
         <textarea class="comment"placeholder="Comments"></textarea>
     </ul>
-    </div>
     <div class="radioContainer">
         <div class="radio yellow">Radio 1: [x]</div>
         <div class="radio yellow">Radio 2: [x]</div>
         <div class="radio yellow">Radio 3: [x]</div>
     </div>
-    <button class="submitContainer">
-        <button class="scale">Submit</button>
-    </button>    
+    <div class="submitContainer">
+        <button class="submit">Submit</button>
+    </div>
+    </div>        
 </body>
 </html>
