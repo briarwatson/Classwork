@@ -30,14 +30,20 @@ text-align: center;
     color: aliceblue;
     border-color: white;
     background-origin: padding-box;
-    box-sizing: 0;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgb(236, 236, 236) inset;
 
+}
+ul {
+    padding: 0;
+    margin: 0;
 }
 .name {
     background-color: rgb(96, 56, 133);
-    width: 600px;
-    padding: 5px;
-    border-color: white;
+    width: 99%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 10px rgb(236, 236, 236) inset;
 }
     </style>
 </head>
@@ -49,10 +55,10 @@ text-align: center;
     </div>
     <div class="boxContainer">
     <ul>
-        <div class="name">Name: [Input]</div>
-        <div class="email">Email: [Input]</div>
-        <div class="name">Name: [Input]</div>
-        <div class="comment">Comment: [TEXTBOX]</div>
+        <input class="name"placeholder="Name"></input>
+        <input class="email"placeholder="Email"></input>
+        <input class="name"placeholder="Name"></input>
+        <textarea class="comment"placeholder="Comments"></textarea>
     </ul>
     </div>
 </body>
