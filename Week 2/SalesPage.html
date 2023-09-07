@@ -24,9 +24,6 @@
     box-shadow: 0px 0px 10px rgb(236, 236, 236) inset;
     color: aliceblue;
 }
-.mainContainer {
-    display: flex;
-}
 footer {
     background-color: brown;
     color: white;
@@ -39,31 +36,36 @@ h2 {
 }
 .redContainer {
     display: flex;
+    flex-wrap: wrap;
     background-color: red;
     width: 600px;
-    height: 200px;
-    margin-left: 20%;
+    height: 400px;
+    margin: 0%;
 }
 .greenBox {
     display: flex;
     background-color: rgb(27, 77, 27);
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 70px;
     border: 2px solid red;
     color: azure;
-    margin: auto;
+    flex-wrap: wrap;
 }
 .purpleContainer {
     display: flex;
-    background-color: purple;
-    margin-right: 80%;
+    background-color: rgb(56, 4, 56);
     flex-direction: column;
+    margin: auto;
 }
 .yellowBox {
     display: flex;
     background-color: yellow;
-    height: 10px;
-    width: 25px;
+    height: 30px;
+    width: 100px;
+    border: 4px solid rgb(56, 4, 56);
+}
+.mainContainer {
+    display: flex;
 }
 </style>
 </head>
