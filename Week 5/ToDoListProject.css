@@ -6,6 +6,9 @@ header {
     margin: auto;
     color:darkred
 }
+h1 {
+    font-size: large;
+}
 .center {
     color: darkred;
     display: flex;
