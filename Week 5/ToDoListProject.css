@@ -8,5 +8,6 @@ header {
 }
 .center {
     color: darkred;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
