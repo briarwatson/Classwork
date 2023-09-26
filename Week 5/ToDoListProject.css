@@ -12,8 +12,8 @@ header {
     flex-direction: column;
 }
 .leftList {
-    margin-left: auto;
+    margin-left: 50%;
 }
 .rightList {
-    margin-right: 80%;
+    margin-right: 50%;
 }
