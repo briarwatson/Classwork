@@ -1,13 +1,12 @@
 body {
     background-color: aqua;
+    font-family: "Sora";
 }
 header {
     text-align: center;
     margin: auto;
-    color:darkred
-}
-h1 {
-    font-size: large;
+    color:darkred;
+    font-family: "TimesNewRoman";
 }
 .center {
     color: darkred;
@@ -16,4 +15,10 @@ h1 {
 }
 ul {
     display: inline-block;
+}
+.leftList {
+    margin-right: 40%;
+}
+.rightList {
+    margin-left: 20%;
 }
