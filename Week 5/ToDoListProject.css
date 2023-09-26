@@ -9,11 +9,8 @@ header {
 .center {
     color: darkred;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
-.leftList {
-    margin-left: 50%;
-}
-.rightList {
-    margin-right: 50%;
+ul {
+    display: inline-block;
 }
