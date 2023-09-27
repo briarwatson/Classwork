@@ -2,6 +2,9 @@ body {
     background-color: aqua;
     font-family: "Sora";
 }
+li {
+    list-style-type: none;
+}
 header {
     text-align: center;
     margin: auto;
@@ -12,12 +15,11 @@ header {
     color: darkred;
     display: flex;
     flex-direction: row;
-}
-ul {
-    display: inline-block;
+    text-align: center;
+    flex-wrap: wrap;
 }
 .leftList {
-    margin-right: 40%;
+    margin: auto;
 }
 .rightList {
     margin-left: 20%;
