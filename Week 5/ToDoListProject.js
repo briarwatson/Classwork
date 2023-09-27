@@ -13,7 +13,7 @@ function addLeft() {
     newInput.type = "checkbox";
 
     newLi.appendChild(newInput);
-    newInput.innerText = inputField.value;
+    newLi.appendChild(document.createTextNode(inputField.value));
     leftList.appendChild(newLi);
-    
+
 }
