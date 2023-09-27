@@ -33,6 +33,9 @@ function addRight() {
 
 function addCheckBoxListner(checkbox) {
     checkbox.addEventListener("click", () => {
-        this.parentElement.remove()
+        checkbox.parentElement.remove()
     })
 }
+
+const checkboxes = document.querySelectorAll("input[type='checkbox']");
+checkboxes.forEach(addCheckBoxListner);
