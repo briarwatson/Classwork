@@ -1,0 +1,39 @@
+.blueContainer {
+    display: flex;
+    flex: row wrap;
+}
+.number {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 10px rgb(102, 102, 102) inset;
+    flex-direction: row-reverse;
+}
+.one {
+    background-color: black;
+}
+.two {
+    background-color: black;
+}
+.three {
+    background-color: black;
+}
+.four {
+    background-color: black;
+}
+.five {
+    background-color: black;
+}
+.six {
+    background-color: black;
+}
+.seven {
+    background-color: black;
+}
+.eight {
+    background-color: black;
+}
+.nine {
+    background-color: black;
+}
+
