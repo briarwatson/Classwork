@@ -26,14 +26,16 @@
 .fourthContainer {
     display: flex;
     flex: row wrap;
+    flex-direction: row;
 }
 .fifthContainer {
     display: flex;
     flex: row wrap;
+    flex-direction: row;
 }
 .box {
     display: flex;
-    flex: row wrap;
+    flex: row wrap; 
     height: 50px;
     width: 50px;
     color: white;
@@ -44,7 +46,6 @@
 }
 .gray {
     background-color: gray;
-
 }
 .orange {
     background-color: orange;
