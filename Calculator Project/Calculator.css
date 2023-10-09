@@ -13,6 +13,8 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex: reverse;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 .mainContainer {
     display: flex;
@@ -53,6 +55,11 @@
 }
 .fifthContainer .box:first-child {
     flex: 2;
+    padding-right: 19px;
+    border-bottom-left-radius: 5%;
+}
+.fifthContainer .box:last-child {
+    border-bottom-right-radius: 5%;
 }
 .black {
     background-color: gray;
