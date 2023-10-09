@@ -10,28 +10,36 @@
     font-size: xx-large;
     height: 100px;
     width: 200px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: reverse;
 }
 .mainContainer {
     display: flex;
     flex: row wrap;
+    width: 200px;
 }
 .secondContainer {
     display: flex;
     flex: row wrap;
+    width: 200px;
 }
 .thirdContainer {
     display: flex;
     flex: row wrap;
+    width: 200px;
 }
 .fourthContainer {
     display: flex;
     flex: row wrap;
     flex-direction: row;
+    width: 200px;
 }
 .fifthContainer {
     display: flex;
     flex: row wrap;
     flex-direction: row;
+    width: 200px;
 }
 .box {
     display: flex;
@@ -40,6 +48,11 @@
     width: 50px;
     color: white;
     font-size: x-large;
+    border: .2px solid black;
+    flex: 1;  
+}
+.fifthContainer .box:first-child {
+    flex: 2;
 }
 .black {
     background-color: gray;
