@@ -8,26 +8,27 @@ const box = document.getElementsByClassName("box");
 function buttonClick(event) {
     const value = event.target.innerText;
 
-    empty.innerText = value;
-
     if (value === "AC") {
         empty.innerText = 0;
-    } else
-
-    if (value === "+/-") {
+    } else if (value === "+/-") {
         let number = empty.innerText;
         number *= -1;
-    } else
-
-    if (value === "%") {
+        empty.innerText = number;
+    } else if (value === "%") {
         let number = empty.innerText;
         number *= 0.01;
-    }
-    if (value === "="){
+        empty.innerText = number;
+    } else if (value === "=") {
         let number = empty.innerText;
         const output = eval(number);
-    } else
-
+        empty.innerText = output;
+    } else {
+        if (empty.innerText === "0") {
+            empty.innerText = value;
+        } else {
+            empty.innerText += value; 
+        }
+    }
 }
 
 
