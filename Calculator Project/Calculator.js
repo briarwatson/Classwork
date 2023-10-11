@@ -10,3 +10,10 @@ function buttonClick(event) {
 
     empty.innerText = value;
 }
+
+function buttonClick(clear) {
+    const clear = value.target.innerText;
+
+    empty.innerText = clear;
+}
+
